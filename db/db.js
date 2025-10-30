@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const DBURL = process.env.ATLAS_DBURL || process.env.DBURL;
+const DBURL = process.env.ATLAS_DBURL;
 
 mongoose
   .connect(DBURL)

@@ -7,8 +7,8 @@ const subCategoryRoutes = require("./routes/subCategory.routes");
 const productRoutes = require("./routes/product.routes");
 
 const app = express();
-const port = process.env.PORT || 5000;
-const host = process.env.HOST || "localhost";
+const port = process.env.PORT;
+const host = process.env.HOST;
 
 app.use(cors());
 app.use(express.json());
